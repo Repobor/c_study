@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "name": "MinGW64",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "D:\\mingw64\\bin\\gcc.exe",
+            "includePath": [
+                "${workspaceFolder}"
+            ]
+            //"cppStandard": "c17"
+        }
+    ],
+    "version": 4
+}
