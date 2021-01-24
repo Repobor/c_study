@@ -10,9 +10,6 @@
 int main(){
     int i; //声明计次变量
     int j;
-    int k;
-    k = getchar();
-    printf("%d",k);
     char tmp[] = "\n\tVery Good!\n";  //声明字符串变量
     char *ch = NULL; //声明字符串型指针变量 同时置空
     ch = &tmp; //指针变量指向tmp变量
