@@ -1,11 +1,12 @@
 /*
 参照本章例题，编写一个C程序，输出一下信息
 ******************************
-                Very Good!
+            Very Good!
 ******************************
 */
 
 #include <stdio.h>
+//#define mian main
 
 int main(){
     int i; //声明计次变量
@@ -25,6 +26,7 @@ int main(){
             printf ("*");
         }
     }
+    
     printf ("\n");
     return 0;
 }

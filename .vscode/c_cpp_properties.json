@@ -6,8 +6,9 @@
             "compilerPath": "D:\\mingw64\\bin\\gcc.exe",
             "includePath": [
                 "${workspaceFolder}"
-            ]
-            //"cppStandard": "c17"
+            ],
+            "cppStandard": "c++17",
+            "cStandard": "c99"
         }
     ],
     "version": 4
