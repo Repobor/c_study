@@ -74,6 +74,7 @@
         "valarray": "cpp",
         "stdlib.h": "c",
         "stdio.h": "c",
-        "windows.h": "c"
+        "windows.h": "c",
+        "stat.h": "c"
     }
 }

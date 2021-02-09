@@ -11,7 +11,6 @@ double Fibonacci_Sequence_n(int num);
 double F(int n);
 
 
-
 int main(){
     //1476
 	clock_t start, finish;  
@@ -20,14 +19,14 @@ int main(){
     double ret1 = Fibonacci_Sequence_n(1476);
     finish = clock();
     duration1 = (double)(finish - start) / CLOCKS_PER_SEC;  
-    printf("循环数组计算的结果是%lf，耗时%lf\n",ret1,duration1);
+    printf("循环数组计算的结果是%.0lf，耗时%lf\n",ret1,duration1);
 
     start = clock();
     double ret2 = F(1476);
     finish = clock();
     duration2 = (double)(finish - start) / CLOCKS_PER_SEC;  
 
-    printf("递归的计算结果是%lf，耗时%lf\n",ret2,duration2);
+    printf("递归的计算结果是%.0lf，耗时%lf\n",ret2,duration2);
     return 0;
 }
 
@@ -71,7 +70,7 @@ double Fibonacci_Sequence_n(int num){
                 t[i] = t[i-1] + t[i-2];
             }
             if(i>46){
-                printf ("F(%d) = %lf\n",i,t[i]);
+                printf ("F(%d) = %.0lf\n",i,t[i]);
             }else if(i>=0 && i<47) {
                 printf ("F(%d) = %d\n",i,(int)t[i]); // 没溢出部分用整型输出好看
             }

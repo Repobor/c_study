@@ -43,8 +43,5 @@ int Factorial(int num){
 }
 
 int Odd_numder(int num){
-    int tmp;
-    tmp = num % 2;
-    //printf(" ----tmp = %d\n",tmp);
-    return 0;
+    return num % 2;
 }
