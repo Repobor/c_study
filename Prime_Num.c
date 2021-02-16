@@ -6,7 +6,7 @@ int isPrimeNum(int num);
 int main()
 {
     int k = 2;
-    while (k < 100)
+    while (k < 1000)
     {
         if(isPrimeNum_fast(k))
             printf("%d\n",k);
