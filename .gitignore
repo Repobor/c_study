@@ -1,3 +1,5 @@
 *.exe
 test.c
-tj.c
+Clean.bat
+Yang_Hui's_Triangle.c
+CodeStats.c

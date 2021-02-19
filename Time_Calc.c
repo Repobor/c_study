@@ -16,12 +16,12 @@
 
 int main(void) {
     int time_start = 0, time_pass = 0;
-    printf("请输入开始时间和流逝时间，格式是hhmm mm\n");
-    scanf("%d %d",&time_start,&time_pass);
-    int time_start_arrays[4] = {time_start/1000%10,time_start/100%10,time_start/10%10,time_start/1%10};
+    printf ("请输入开始时间和流逝时间，格式是hhmm mm\n");
+    scanf ("%d %d", &time_start, &time_pass);
+    int time_start_arrays[4] = {time_start/1000%10, time_start/100%10, time_start/10%10, time_start/1%10};
     int time_start_minutes = time_start_arrays[2]*10 + time_start_arrays[3];
     int time_start_hours = time_start_arrays[0]*10 + time_start_arrays[1];
-    printf("开始时间是%d:%d,流逝时间是%d分钟\n",time_start_hours,time_start_minutes,time_pass);
+    printf ("开始时间是%d:%d,流逝时间是%d分钟\n", time_start_hours, time_start_minutes,time_pass);
     int time_end_minutes = time_start_minutes + time_pass;
     int time_end_hours = time_start_hours;
     while (time_end_minutes < 0)
@@ -34,6 +34,6 @@ int main(void) {
         time_end_hours += 1;
         time_end_minutes -= 60;
     }
-    printf("结束时间是%d:%d\n",time_end_hours,time_end_minutes);
+    printf ("结束时间是%d:%d\n", time_end_hours, time_end_minutes);
     return 0;
 }

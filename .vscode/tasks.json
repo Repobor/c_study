@@ -18,7 +18,8 @@
                 "-std=c99",       // 使用c++17标准
                 "-finput-charset=UTF-8",    //输入编译器文本编码 默认为UTF-8
                 "-fexec-charset=GB18030",   //输出exe文件的编码
-                "-D _USE_MATH_DEFINES"
+                "-D _USE_MATH_DEFINES",
+                //"-O1" //禁用优化 0-3 优化级别 0为关闭优化
             ],
             "options": {
                 "cwd": "D:\\mingw64\\bin\\"
@@ -38,4 +39,3 @@
         }
     ]
 }
-
